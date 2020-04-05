@@ -1,11 +1,13 @@
 package org.schhx.tutorial.controller;
 
-import org.schhx.tutorial.dto.CreateUserReq;
-import org.schhx.tutorial.dto.UpdateUserReq;
 import org.schhx.tutorial.entity.User;
+import org.schhx.tutorial.req.CreateUserReq;
+import org.schhx.tutorial.req.UpdateUserReq;
 import org.schhx.tutorial.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Date;
 
 /**
  * @author shanchao
@@ -20,6 +22,7 @@ public class UserController {
 
     @PostMapping("/create")
     public User createUser(@RequestBody CreateUserReq req) {
+        Date d = new Date();
         return userService.create(req.getUsername(), req.getAge());
     }
 

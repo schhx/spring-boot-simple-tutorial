@@ -1,4 +1,4 @@
-package org.schhx.tutorial.dto;
+package org.schhx.tutorial.req;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -9,9 +9,7 @@ import lombok.experimental.Accessors;
  */
 @Data
 @Accessors(chain = true)
-public class UpdateUserReq {
-
-    private String id;
+public class CreateUserReq {
 
     private String username;
 
