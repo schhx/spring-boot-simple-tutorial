@@ -1,4 +1,4 @@
-package org.schhx.tutorial.resp.handler;
+package org.schhx.tutorial.exception.handler;
 
 import org.schhx.tutorial.exception.CommonBizException;
 import org.schhx.tutorial.resp.ErrorResp;
@@ -14,7 +14,7 @@ import org.springframework.web.context.request.WebRequest;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author shanchao
+ * @author schhx
  * @date 2020-04-05
  */
 @RestController

@@ -1,7 +1,7 @@
 package org.schhx.tutorial.resp;
 
 /**
- * @author shanchao
+ * @author schhx
  * @date 2020-04-05
  */
 public class SuccessResp extends BaseResp {

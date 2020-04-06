@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 /**
- * @author shanchao
+ * @author schhx
  * @date 2020-04-05
  */
 @ControllerAdvice(basePackages = {"org.schhx.tutorial.controller"})

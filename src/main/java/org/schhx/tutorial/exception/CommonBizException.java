@@ -1,7 +1,7 @@
 package org.schhx.tutorial.exception;
 
 /**
- * @author shanchao
+ * @author schhx
  * @date 2020-04-05
  */
 public class CommonBizException extends BaseException {

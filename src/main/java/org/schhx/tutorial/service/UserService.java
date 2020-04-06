@@ -3,7 +3,7 @@ package org.schhx.tutorial.service;
 import org.schhx.tutorial.entity.User;
 
 /**
- * @author shanchao
+ * @author schhx
  * @date 2020-04-04
  */
 public interface UserService {

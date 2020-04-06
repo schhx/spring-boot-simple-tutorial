@@ -3,7 +3,7 @@ package org.schhx.tutorial.resp;
 import org.schhx.tutorial.exception.BaseException;
 
 /**
- * @author shanchao
+ * @author schhx
  * @date 2020-04-05
  */
 public class ErrorResp extends BaseResp {
