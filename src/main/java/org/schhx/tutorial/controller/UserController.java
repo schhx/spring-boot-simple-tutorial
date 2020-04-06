@@ -22,7 +22,6 @@ public class UserController {
 
     @PostMapping("/create")
     public User createUser(@RequestBody CreateUserReq req) {
-        Date d = new Date();
         return userService.create(req.getUsername(), req.getAge());
     }
 
